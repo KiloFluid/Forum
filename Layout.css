@@ -1,0 +1,19 @@
+.body {
+    overflow-x: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/* Sections */
+#Title_Main {
+    height: 20vh;
+}
+#ForumDisplay_Main {
+    height: 50vh;
+}
+#Help_Main {
+    height: 20vh;
+}
