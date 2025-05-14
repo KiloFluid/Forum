@@ -1,5 +1,7 @@
 .body {
-    overflow-x: hidden;
+    overflow-x:hidden;
+        overflow-y:hidden;
+
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -9,11 +11,44 @@
 
 /* Sections */
 #Title_Main {
-    height: 20vh;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ARIALFONT {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px; 
+    font-weight: 200
 }
 #ForumDisplay_Main {
     height: 50vh;
 }
 #Help_Main {
     height: 20vh;
+}
+#LoginButton {
+    transition: 0.75s transform cubic-bezier(0.075, 0.82, 0.165, 1);
+    user-select: none;
+    position: absolute;
+    height: 5vh;
+    width: 12vh;
+    left: 85vw;
+    top: 2vh;
+    background-color:rgb(104, 17, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.5vh 1vh 1vh rgb(15, 14, 15);
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+    outline-color: rgb(58, 7, 45);
+    color: white;
+    outline-width: 2px;
+    outline-style:solid;
+    font-family: Arial, Helvetica, sans-serif;
 }
